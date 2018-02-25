@@ -80,6 +80,7 @@
 					if (skel.vars.browser == 'ie'
 					||	skel.vars.mobile)
 						settings.parallax = false;
+					settings.parallax = false;
 
 				if (settings.parallax) {
 
