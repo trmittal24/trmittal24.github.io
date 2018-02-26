@@ -3231,13 +3231,15 @@
 	  } */
 
 	  .btn-group button {
-		background-color: #4CAF50; /* Green background */
-		border: 1px solid green; /* Green border */
+		background-color: transparent ; 
+		border: 1px solid whitesmoke; /* Green border */
+		border-radius: 0.5em;
 		color: white; /* White text */
-		padding: 10px 24px; /* Some padding */
+		padding: 10px 20px; /* Some padding */
 		cursor: pointer; /* Pointer/hand icon */
 		float: left; /* Float the buttons side by side */
-		margin: 5px;
+		margin: 15px;
+		/* opacity: 0.9; */
 	}
 	
 	.btn-group button:not(:last-child) {
@@ -3252,6 +3254,6 @@
 	}
 	
 	/* Add a background color on hover */
-	.btn-group button:hover {
+	/* .btn-group button:hover {
 		background-color: #4CAF50;
-	}
+	} */
