@@ -3237,7 +3237,7 @@
 		border-radius: 0.5em;
 		color: white; /* White text */
 		padding: 10px 20px; /* Some padding */
-		cursor: pointer; /* Pointer/hand icon */
+		 /* Pointer/hand icon */
 		float: left; /* Float the buttons side by side */
 		margin: 15px;
 		/* opacity: 0.9; */
